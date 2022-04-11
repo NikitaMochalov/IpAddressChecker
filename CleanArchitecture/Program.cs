@@ -35,7 +35,7 @@ namespace CleanArchitecture
                     Console.WriteLine($"Долгота: {ipData.Longitude}°");
                     Console.WriteLine($"Интернет провайдер: {ipData.InternetProvider}");
                 }
-                else Console.WriteLine("Введенное значение не является ip адресом", ip);
+                else Console.WriteLine("Введенное значение не является ip адресом");
 
                 Console.WriteLine("\n");
             }
